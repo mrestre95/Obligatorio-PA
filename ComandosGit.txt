@@ -13,9 +13,9 @@ git init -> Solo la primera vez, crea el repositorio local
 
 git clone https://github.com/mrestre95/Obligatorio-PA.git  -> clona el repositorio remoto en el local
 
-git add ->agrega un nuevo archivo a la starting area
+git add ->El repo local se entera de que hay un nuevo cambio
 
-git commit -> commitea ese archivo al repo local
+git commit -> commitea ese cambio al repo local
 
 git push -> manda los cambios al repo remoto
 
