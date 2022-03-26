@@ -27,5 +27,3 @@ git branch
 
 git fetch
 
-
-Pruebo actualizar datos desde git
