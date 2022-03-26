@@ -29,3 +29,7 @@ git fetch
 
 git pull
 
+//eliminar rama remotamente
+
+git push origin :{nombreRama}
+
