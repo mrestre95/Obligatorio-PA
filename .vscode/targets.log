@@ -1,0 +1,393 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
+
+ # Este programa fue construido para i386-pc-mingw32
+ 
+
+# Base de datos del Make, mostrada en Thu Mar 24 18:17:10 2022
+
+# Variables
+
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# autom�tica/o
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# entorno
+VSCODE_LOG_NATIVE = false
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/Joaco/Desktop/Obligatorio PAv/V5
+# por defecto
+SHELL := sh.exe
+# entorno
+WINDIR = C:\WINDOWS
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"1c7d4088dff685881be37383c425e401.es","_translationsConfigFile":"C:\\Users\\Joaco\\AppData\\Roaming\\Code\\clp\\1c7d4088dff685881be37383c425e401.es\\tcf.json","_cacheRoot":"C:\\Users\\Joaco\\AppData\\Roaming\\Code\\clp\\1c7d4088dff685881be37383c425e401.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\Joaco\\AppData\\Roaming\\Code\\clp\\1c7d4088dff685881be37383c425e401.es\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1","_corruptedFile":"C:\\Users\\Joaco\\AppData\\Roaming\\Code\\clp\\1c7d4088dff685881be37383c425e401.es\\corrupted.info","_languagePackSupport":true}
+# entorno
+VBOX_MSI_INSTALL_PATH = J:\VB\
+# entorno
+ONEDRIVE = C:\Users\Joaco\OneDrive
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (de `makefile', l�nea 1):
+MAKEFILE_LIST :=  makefile
+# entorno
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# entorno
+TMP = J:\Archivos TEMP
+# entorno
+VSCODE_VERBOSE_LOGGING = true
+# entorno
+PROGRAMW6432 = C:\Program Files
+# entorno
+PROGRAMDATA = C:\ProgramData
+# entorno
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5131c8cc-5d5a-452f-8676-de8ebbed50b9-sock
+# entorno
+VSCODE_CWD = C:\Users\Joaco\AppData\Local\Programs\Microsoft VS Code
+# entorno
+PATH = C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Joaco\AppData\Local\Microsoft\WindowsApps;C:\Users\Joaco\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\Joaco\AppData\Roaming\npm;C:\Program Files (x86)\GnuWin32\bin;
+# entorno
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+USERPROFILE = C:\Users\Joaco
+# entorno
+ALLUSERSPROFILE = C:\ProgramData
+# entorno
+VSCODE_LOG_STACK = false
+# entorno
+NUMBER_OF_PROCESSORS = 4
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6572_CDKJJKPHGXVVDBPZ
+# entorno
+VSCODE_PIPE_LOGGING = true
+# entorno
+COMPUTERNAME = STFU-PC
+# entorno
+PROGRAMFILES = C:\Program Files (x86)
+# entorno
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# entorno
+USERNAME = Joaco
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# entorno
+VSCODE_CODE_CACHE_PATH = C:\Users\Joaco\AppData\Roaming\Code\CachedData\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# entorno
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# entorno
+LOGONSERVER = \\STFU-PC
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = STFU-PC
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# por defecto
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := principal
+# entorno
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# entorno
+LOCALAPPDATA = C:\Users\Joaco\AppData\Local
+# entorno
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# por defecto
+MAKE_COMMAND := make.exe
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# por defecto
+.VARIABLES := 
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\88c24bbf75746db737e5a635e824b2b5-1.65.2-main-sock
+# entorno
+HOMEPATH = \Users\Joaco
+# entorno
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# entorno
+PROMPT = $P$G
+# entorno
+MFLAGS = -Rrqp
+# autom�tica/o
+*D = $(patsubst %/,%,$(dir $*))
+# entorno
+SYSTEMROOT = C:\WINDOWS
+# autom�tica/o
++D = $(patsubst %/,%,$(dir $+))
+# autom�tica/o
++F = $(notdir $+)
+# entorno
+APPDATA = C:\Users\Joaco\AppData\Roaming
+# entorno
+TEMP = J:\Archivos TEMP
+# entorno
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# por defecto
+MAKEFILES := 
+# autom�tica/o
+<F = $(notdir $<)
+# entorno
+LC_ALL = C
+# autom�tica/o
+^F = $(notdir $^)
+# por defecto
+SUFFIXES := 
+# entorno
+SYSTEMDRIVE = C:
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = 3c03
+# entorno
+MAKELEVEL := 0
+# entorno
+LANG = C
+# entorno
+PROCESSOR_LEVEL = 6
+# entorno
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# entorno
+VSCODE_PID = 6572
+# entorno
+USERDOMAIN_ROAMINGPROFILE = STFU-PC
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=89/1024=9%, Rehash=0, Colisiones=9/109=8%
+
+# Valores de variables espec�ficas al patr�n
+
+# No hay valores de variables espec�ficas al patr�n.
+
+# Directorios
+
+# C:\Users\Joaco\AppData\Roaming\npm (llave C:/Users/Joaco/AppData/Roaming/npm, mtime 1609168395): 6 archivos, no imposibilidades.
+# C:\Program Files\Intel\iCLS Client\ (llave C:/Program Files/Intel/iCLS Client/, mtime 1568908039): 18 archivos, no imposibilidades.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (llave C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1602751193): 32 archivos, no imposibilidades.
+# C:\Windows\System32\Wbem (llave C:/Windows/System32/Wbem, mtime 1646901622): 172 archivos, no imposibilidades.
+# . (llave c:/Users/Joaco/Desktop/Obligatorio PAv/V5, mtime 1648156233): 28 archivos, no imposibilidades.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (llave C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1618100667): 10 archivos, no imposibilidades.
+# C:\Users\Joaco\AppData\Local\Microsoft\WindowsApps (llave C:/Users/Joaco/AppData/Local/Microsoft/WindowsApps, mtime 1647108354): 15 archivos, no imposibilidades.
+# C:\Program Files\nodejs\ (llave C:/Program Files/nodejs/, mtime 1609168252): 11 archivos, no imposibilidades.
+# C:\MinGW\bin (llave C:/MinGW/bin, mtime 1595729870): 125 archivos, no imposibilidades.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (llave C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1568908033): 5 archivos, no imposibilidades.
+# C:\Windows\System32\OpenSSH\: podr�a no estar establecido.
+# C:\Program Files (x86)\Intel\iCLS Client\ (llave C:/Program Files (x86)/Intel/iCLS Client/, mtime 1568908039): 16 archivos, no imposibilidades.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (llave C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1568908033): 4 archivos, no imposibilidades.
+# C:\Windows (llave C:/Windows, mtime 1646933988): 116 archivos, no imposibilidades.
+# C:\Program Files\Git\cmd (llave C:/Program Files/Git/cmd, mtime 1609168052): 8 archivos, no imposibilidades.
+# C:\Windows\system32 (llave C:/Windows/system32, mtime 1648050841): 3047 archivos, no imposibilidades.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (llave C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1568908033): 10 archivos, no imposibilidades.
+# C:\Users\Joaco\AppData\Local\Programs\Microsoft VS Code\bin (llave C:/Users/Joaco/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647012902): 4 archivos, no imposibilidades.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (llave C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1568908033): 11 archivos, no imposibilidades.
+# C:\Program Files (x86)\GnuWin32\bin (llave C:/Program Files (x86)/GnuWin32/bin, mtime 1647804969): 5 archivos, no imposibilidades.
+
+# 3643 archivos, no imposibilidades en 20 directorios.
+
+# Reglas impl�citas.
+
+# No hay reglas impl�citas.
+
+# Archivos
+
+# No es un objetivo:
+all:
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Jugador.o: Jugador.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 14):
+	g++ Jugador.cpp -g -c
+	
+
+principal: Juego.o DtJuego.o DtFechaHora.o Jugador.o DtJugador.o Partida.o Main.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 2):
+	g++ Juego.o DtJuego.o DtFechaHora.o Jugador.o  DtJugador.o Partida.o main.o -g -o videojuegos
+	
+
+DtJuego.o: DtJuego.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 8):
+	g++ DtJuego.cpp -g -c
+	
+
+# No es un objetivo:
+Juego.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Partida.o: Partida.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 20):
+	g++ Partida.cpp -g -c
+	
+
+# No es un objetivo:
+DtJugador.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-03-20 16:10:08
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+main.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+clean:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 27):
+	rm -rf *.o videojuegos
+	clear
+	
+
+Juego.o: Juego.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 5):
+	g++ Juego.cpp -g -c
+	
+
+DtFechaHora.o: DtFechaHora.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 11):
+	g++ DtFechaHora.cpp -g -c
+	
+
+DtJugador.o: DtJugador.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 17):
+	g++ DtJugador.cpp -g -c
+	
+
+# No es un objetivo:
+Jugador.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+Main.o: main.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 23):
+	g++ main.cpp -g -c
+	
+
+# No es un objetivo:
+DtJuego.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+Partida.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+DtFechaHora.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# estad�sticas de la tabla de hash de los archivos:
+# Carga=20/1024=2%, Rehash=0, Colisiones=2/45=4%
+# Rutas de b�squeda VPATH
+
+# No hay rutas de b�squeda `vpath'.
+
+# No hay ruta de b�squeda general (variable `VPATH').
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Se termina la base de datos de Make en Thu Mar 24 18:17:10 2022
+
+ 
+make.exe: *** No hay ninguna regla para construir el objetivo `all'.  Alto.
+ 

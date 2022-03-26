@@ -1,0 +1,38 @@
+#include "Jugador.h"
+
+Jugador::Jugador(){}
+
+Jugador::Jugador(string nickname, int edad, string password){
+        this->nickname = nickname;
+        this->edad = edad;
+        this->password = password;
+    
+}
+string Jugador::getNickname(){
+        return this->nickname;
+}
+void Jugador::setNickname(string nickname){
+        this->nickname=nickname;
+
+}
+int Jugador::getEdad(){
+        return this->edad;
+
+}
+void Jugador::setEdad(int edad){
+        this->edad=edad;
+}
+
+string Jugador::getPassword(){
+        return this->password;
+}
+void Jugador::setPassword(int password){// estaba como (int password)
+        this->password=password;
+}
+
+DtJugador* Jugador::getDtJugador(){
+        DtJugador* dt = new DtJugador(this->nickname, this->edad);
+        return dt;
+}
+
+Jugador::~Jugador(){}

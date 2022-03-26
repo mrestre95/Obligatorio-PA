@@ -1,0 +1,12 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: se ingresa al directorio `c:/Users/Joaco/Desktop/Obligatorio PAv/V5'
+g++ Juego.cpp -g -c
+g++ DtJuego.cpp -g -c
+g++ DtFechaHora.cpp -g -c
+g++ Jugador.cpp -g -c
+g++ DtJugador.cpp -g -c
+g++ Partida.cpp -g -c
+g++ main.cpp -g -c
+g++ Juego.o DtJuego.o DtFechaHora.o Jugador.o  DtJugador.o Partida.o main.o -g -o videojuegos
+make.exe: se sale del directorio `c:/Users/Joaco/Desktop/Obligatorio PAv/V5'
+ 
