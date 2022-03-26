@@ -1,1 +1,28 @@
-Se prueba git
+URL Reporistorio: git@github.com:mrestre95/Obligatorio-PA.git
+
+//Actualizar nombre de un branch
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+
+//Para crear el repositorio local
+
+git init -> Solo la primera vez, crea el repositorio local
+
+git clone https://github.com/mrestre95/Obligatorio-PA.git  -> clona el repositorio remoto en el local
+
+git add ->agrega un nuevo archivo a la starting area
+
+git commit -> commitea ese archivo al repo local
+
+git push -> manda los cambios al repo remoto
+
+// para ver las ramas
+
+git branch
+
+//obtener los cambios del servidor
+
+git fetch
