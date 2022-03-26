@@ -26,3 +26,6 @@ git branch
 //obtener los cambios del servidor
 
 git fetch
+
+
+Pruebo actualizar datos desde git
