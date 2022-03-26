@@ -27,3 +27,5 @@ git branch
 
 git fetch
 
+git pull
+
